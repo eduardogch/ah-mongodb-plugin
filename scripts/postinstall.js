@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var fs = require('fs');
+var fs = require('fs-extra');
 var path = require('path');
 
 var localFile   = path.normalize(__dirname + '/../config/mongo.js');

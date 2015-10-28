@@ -1,18 +1,31 @@
 {
-  "author": "Evan Tahler <evantahler@gmail.com>",
-  "name": "ah-sample-plugin",
-  "description": "I am a simple sample plugin for actionhero",
-  "version": "0.0.5",
-  "homepage": "http://actionherojs.com",
+  "author": "Evan Tahler <eduardo.gch@gmail.com>",
+  "name": "ah-mongodb-plugin",
+  "description": "Actionhero plugin to support mongodbDB",
+  "version": "1.0.0",
+  "homepage": "https://github.com/eduardogch/ah-mongodb-plugin",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/evantahler/ah-sample-plugin.git"
+    "url": "git://github.com/eduardogch/ah-mongodb-plugin.git"
   },
-  "keywords": ["actionherojs", "actionhero", "sample", "ah-sample-plugin", "plugin", "sample plugin"],
+  "keywords": [
+    "actionherojs",
+    "actionhero",
+    "mongodb",
+    "ah-mongodb-plugin",
+    "plugin",
+    "mongodb plugin"
+  ],
   "engines": {
     "node": ">=0.8.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "connect-mongo": "^0.8.2",
+    "fs-extra": "^0.26.0",
+    "mongoose": "^4.2.3",
+    "path": "^0.12.7"
+  },
   "devDependencies": {},
   "optionalDependencies": {},
   "scripts": {

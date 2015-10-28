@@ -1,8 +1,8 @@
 # ah-mongodb-plugin
-Actionhero plugin to support mongodbDB
+Actionhero plugin to support mongoDB
 
 ***
-**[NPM](https://www.npmjs.com/package/ah-mongodbdb-plugin) | [GitHub](https://github.com/eduardogch/ah-mongodb-plugin) | [Chat](https://gitter.im/eduardogch/ah-mongodb-plugin)**
+**[NPM](https://www.npmjs.com/package/ah-mongodb-plugin) | [GitHub](https://github.com/eduardogch/ah-mongodb-plugin) | [Chat](https://gitter.im/eduardogch/ah-mongodb-plugin)**
 ***
 
 ## Install & Setup

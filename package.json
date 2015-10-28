@@ -1,7 +1,7 @@
 {
   "author": "Evan Tahler <eduardo.gch@gmail.com>",
   "name": "ah-mongodb-plugin",
-  "description": "Actionhero plugin to support mongodbDB",
+  "description": "Actionhero plugin to support MongoDB",
   "version": "1.0.0",
   "homepage": "https://github.com/eduardogch/ah-mongodb-plugin",
   "license": "MIT",
@@ -30,5 +30,9 @@
   "optionalDependencies": {},
   "scripts": {
     "postinstall": "scripts/postinstall.js"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/eduardogch/ah-mongodb-plugin/issues"
+  },
+  "main": "index.js"
 }

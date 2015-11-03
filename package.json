@@ -21,10 +21,8 @@
     "node": ">=0.8.0"
   },
   "dependencies": {
-    "connect-mongo": "^0.8.2",
     "fs-extra": "^0.26.0",
-    "mongoose": "^4.2.3",
-    "path": "^0.12.7"
+    "mongoose": "^4.2.3"
   },
   "devDependencies": {},
   "optionalDependencies": {},

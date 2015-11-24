@@ -20,7 +20,7 @@ module.exports = {
 
                 if(api.config.mongo.startMongo) {
                     if(api.config.mongo.debug) {
-                        api.mongoose.mongo.set('debug', true);
+                        api.mongo.mongoose.set('debug', true);
                     }
                     api.mongo.mongoose.connect(api.config.mongo.connectionURL);
                     api.mongo.mongoose.connection.on('error', function() {
